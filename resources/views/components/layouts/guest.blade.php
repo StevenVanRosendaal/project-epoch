@@ -14,7 +14,14 @@
 
     </header>
 
-    <main>
+    <main class="container mx-auto px-4">
+        @if ($errors->any())
+        <ul>
+            @foreach ($errors->all() as $error)
+            <li>{{ $error }}</li>
+            @endforeach
+        </ul>
+        @endif
         {{ $slot }}
     </main>
 
