@@ -46,11 +46,15 @@ class FortifyServiceProvider extends ServiceProvider
         });
 
         Fortify::loginView(function () {
-            return view('livewire.auth.login');
+            return view('auth.login');
         });
 
         Fortify::registerView(function () {
-            return view('livewire.auth.register');
+            return view('auth.register');
+        });
+
+        Fortify::verifyEmailView(function() {
+            return view('auth.verify');
         });
     }
 }
