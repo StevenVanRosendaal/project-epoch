@@ -47,4 +47,9 @@ class User extends Authenticatable implements MustVerifyEmail
             'password' => 'hashed',
         ];
     }
+
+    public function selectedOutpost()
+    {
+        return $this->hasOneThrough(Outpost::class, UserSetting::class, 'selected_outpost', 'user_id');
+    }
 }
