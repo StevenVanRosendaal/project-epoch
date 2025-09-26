@@ -12,10 +12,10 @@
 
 <body>
     <header>
-
+        <livewire:game.resource-counter :outpost="Auth::user()->selectedOutpost" />
     </header>
 
-    <main class="container mx-auto px-4">
+    <main>
         @if ($errors->any())
         <ul>
             @foreach ($errors->all() as $error)

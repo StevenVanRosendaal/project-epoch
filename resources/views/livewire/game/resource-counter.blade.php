@@ -25,7 +25,7 @@
         <div class="px-2">
             <div class="flex flex-col items-center">
                 <span class="text-4xl">💎</span>
-                <span class="text-center text-3xl sm:text-5xl">0</span>
+                <span class="text-center text-3xl sm:text-5xl">{{ Auth::user()->gems }}</span>
             </div>
         </div>
     </div>
