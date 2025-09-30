@@ -8,7 +8,8 @@ class Building extends Model
 {
     protected $fillable = [
         'outpost_id',
-        'building_type',
+        'type',
+        'level',
     ];
 
     public function outpost()

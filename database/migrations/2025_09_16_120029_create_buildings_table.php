@@ -14,7 +14,7 @@ return new class extends Migration
         Schema::create('buildings', function (Blueprint $table) {
             $table->id();
             $table->foreignId('outpost_id')->constrained();
-            $table->enum('building_type', [
+            $table->enum('type', [
                 'sawmill',
                 'quarry',
                 'goldmine',
