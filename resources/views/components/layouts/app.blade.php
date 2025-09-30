@@ -12,6 +12,7 @@
 
 <body>
     <header>
+        <livewire:game.menu-bar />
         <livewire:game.resource-counter :outpost="Auth::user()->selectedOutpost" />
     </header>
 

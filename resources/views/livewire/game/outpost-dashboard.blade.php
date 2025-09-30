@@ -1,4 +1,4 @@
-<div class="container mx-auto pb-4 px-4 sm:px-6 lg:px-8 grid grid-cols-12 gap-4">
+<div class="container mx-auto pt-6 pb-24 sm:pb-4 px-4 sm:px-6 lg:px-8 grid grid-cols-12 gap-4">
     <div class="col-span-12 p-2 rounded-b-xl bg-white dark:bg-gray-800 shadow-xl shadow-gray-400 dark:shadow-gray-800">Hi</div>
     <div class="col-span-12 lg:col-span-9 rounded-xl shadow-xl shadow-gray-400 dark:shadow-gray-800">
         <div class="hero h-96 rounded-xl place-items-start justify-end"

@@ -30,7 +30,7 @@ return [
         'base_cost' => ['wood' => 50, 'stone' => 10],
         'cost_multiplier' => 1.5,
         'effect' => [
-            'wood_limit' => 500, // extra storage capacity
+            'wood_limit' => 5000, // extra storage capacity
         ],
     ],
     'mining_camp' => [
